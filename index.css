@@ -249,7 +249,18 @@ body {
 .SongList img {
     width: 10px;
 }
-
+.songinfo{
+    width: 150px;
+}
+.songtime{
+    width: 80px;
+}
+.timevol{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .playnow {
     display: flex;
     gap: 6px;
