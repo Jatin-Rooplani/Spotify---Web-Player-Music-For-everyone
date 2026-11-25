@@ -49,7 +49,7 @@ const playMusic = (track, pause = false) => {
     document.querySelector(".songtime").innerHTML = "00:00/00:00"
 }
 async function displayAlbum() {
-    let a = await fetch(`http://127.0.0.1:5500/songs/`)
+    let a = await fetch("/songs/")
     let response = await a.text();
     let div = document.createElement("div")
     div.innerHTML = response;
