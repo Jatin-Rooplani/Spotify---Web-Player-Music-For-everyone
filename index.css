@@ -11,48 +11,48 @@ body {
 
 .left {
     width: 27vw;
-    padding: 0px 0px 0px 7px;
+    padding: 0px 0px 0px 12.25px;
 }
 .close{
     display: none;
 }
 
 .home {
-    padding: 5px;
+    padding: 8.75px;
 }
 
 .home ul li {
     list-style: none;
-    width: 12px;
+    width: 21px;
     display: flex;
-    gap: 12px;
-    padding: 3px;
+    gap: 21px;
+    padding: 5.25px;
     font-weight: bold;
-    font-size: 9px;
+    font-size: 15.75px;
 }
 
 .right {
     width: 73vw;
-    border-radius: 2px;
+    border-radius: 3.5px;
     position: relative;
 }
 
 .heading {
     width: 100%;
     display: flex;
-    gap: 15px;
-    padding-top: 23px 14px;
+    gap: 26.25px;
+    padding-top: 4px;
     /* font-weight: bold; */
-    font-size: 10px;
+    font-size: 17.5px;
     align-items: center;
 }
 
 .heading img {
-    width: 15px;
+    width: 26.25px;
 }
 
 .library {
-    height: 67vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -60,9 +60,9 @@ body {
     position: absolute;
     bottom: 0px;
     display: flex;
-    gap: 4px;
-    font-size: 5px;
-    padding: 13px 0px;
+    gap: 7px;
+    font-size: 8.75px;
+    padding: 22.75px 0px;
 }
 
 .footer a {
@@ -73,15 +73,19 @@ body {
 .header {
     justify-content: space-between;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 5.25px;
     background-color: #222222;
-    padding: 4px;
+    padding: 7px;
 }
 .hamburgerCont{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 8.75px;
+}
+.hamburgerCont svg{
+    width: 40px;
+    height: 40px;
 }
 .hamburger{
     display: none;
@@ -90,7 +94,7 @@ body {
     background: transparent;
     color: #b3b3b3;
     border: none;
-    font-size: 11px;
+    font-size: 19.25px;
     font-weight: 700;
     cursor: pointer;
     transition: 0.3s ease;
@@ -105,9 +109,9 @@ body {
     background-color: #1ed760;
     color: #000;
     border: none;
-    border-radius: 25px;
-    padding: 3px 11px;
-    font-size: 14px;
+    border-radius: 43.75px;
+    padding: 5.25px 19.25px;
+    font-size: 24.5px;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -123,27 +127,27 @@ body {
 }
 
 .SpotifyPlaylist {
-    padding: 10px;
+    padding: 17.5px;
 }
 
 .CardContainer {
-    margin: 10px 10px 10px 0px;
-    gap: 10px;
+    margin: 17.5px 17.5px 17.5px 0px;
+    gap: 17.5px;
     flex-wrap: wrap;
     max-height: 50vh;
     overflow-y: auto;
 }
 
 .card>* {
-    padding-top: 3px;
+    padding-top: 5.25px;
 }
 
 .card {
-    padding: 5px;
+    padding: 8.75px;
     position: relative;
-    width: 90px;
+    width: 157.5px;
     background-color: #252525;
-    border-radius: 6px;
+    border-radius: 10.5px;
     transition: all 0.5s;
 }
 
@@ -153,15 +157,15 @@ body {
 }
 
 .card p {
-    font-size: 7px;
+    font-size: 12.25px;
     color: rgb(155 141 141);
     font-weight: bold;
 }
 
 .play {
     position: absolute;
-    top: 48%;
-    right: 6%;
+    top: 65%;
+    right: 5%;
     opacity: 0;
     transition: all 0.3s ease-out;
 }
@@ -171,7 +175,7 @@ body {
 }
 
 .card:hover .play {
-    top: 42%;
+    top: 55%;
     opacity: 1;
 }
 
@@ -179,11 +183,11 @@ body {
     position: fixed;
     bottom: 0px;
     background-color: #1ed760;
-    border-radius: 3px;
-    min-height: 25px;
+    border-radius: 5.25px;
+    min-height: 43.75px;
     width: 70%;
-    margin-bottom: 10px;
-    padding: 3px;
+    margin-bottom: 17.5px;
+    padding: 5.25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,15 +198,15 @@ body {
     width: 96%;
     background: white;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 17.5px;
     position: absolute;
-    bottom: -2px;
-    margin: 6px;
+    bottom: -3.5px;
+    margin: 10.5px;
 }
 
 .circle {
-    width: 6px;
-    height: 6px;
+    width: 10.5px;
+    height: 10.5px;
     background-color: white;
     border-radius: 50%;
     position: absolute;
@@ -213,31 +217,31 @@ body {
 }
 
 .songbuttons img {
-    width: 25px;
-    height: 15px;
+    width: 43.75px;
+    height: 26.25px;
     cursor: pointer;
 }
 
 .SongList ul {
-    font-size: 8px;
-    padding: 6px 0px;
+    font-size: 14px;
+    padding: 10.5px 0px;
     list-style-type: decimal;
 }
 
 .SongList .info {
-    font-size: 6px;
-    width: 56px;
+    font-size: 10.5px;
+    width: 98px;
 }
 
 .SongList ul li {
     display: flex;
-    gap: 12px;
+    gap: 21px;
     justify-content: space-around;
-    padding: 5px 0px;
-    border: 1px solid white;
-    margin: 6px;
-    padding: 6px;
-    border-radius: 3px;
+    padding: 8.75px 0px;
+    border: 1.75px solid white;
+    margin: 10.5px;
+    padding: 10.5px;
+    border-radius: 5.25px;
     cursor: pointer;
 }
 
@@ -248,27 +252,27 @@ body {
 }
 
 .SongList img {
-    width: 10px;
+    width: 17.5px;
 }
 .songinfo{
-    width: 150px;
+    width: 262.5px;
 }
 .songtime{
-    width: 80px;
+    width: 140px;
 }
 .timevol{
     display: flex;
-    gap: 10px;
+    gap: 17.5px;
     align-items: center;
     justify-content: space-evenly;
 }
 .volume img {
-    width: 18px;
+    width: 31.5px;
     cursor: pointer;
 }
 .range {
-    width: 70px;
-    height: 3px;
+    width: 122.5px;
+    height: 5.25px;
     cursor: pointer;
     accent-color: white;
 }
@@ -281,24 +285,24 @@ body {
 .volume {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8.75px;
 }
 .playnow {
     display: flex;
-    gap: 6px;
+    gap: 10.5px;
     justify-content: center;
     align-items: center;
-    font-size: 6px;
+    font-size: 10.5px;
 }
 
 .playnow img {
-    width: 14px;
-    height: 14px;
+    width: 24.5px;
+    height: 24.5px;
     cursor: pointer;
 }
 
 .aboveBar {
-    font-size: 7px;
+    font-size: 12.25px;
     display: flex;
     align-items: center;
     justify-content: space-between;

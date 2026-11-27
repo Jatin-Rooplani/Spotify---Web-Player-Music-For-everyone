@@ -89,7 +89,7 @@ async function displayAlbum() {
                     </svg>
                 </div>
 
-                <h6>${response.title}</h6>
+                <h3>${response.title}</h3>
                 <p>${response.description}</p>
 
             </div>`;
